@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{569844B3-C444-4D9F-A4A0-7BF345CCA5A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D81F4AE1-86E9-4BDE-9569-9FDFD444295B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{795330E3-A804-45CA-BC38-E8C39A57AE3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{37402BDE-2310-438C-A955-66DAE1671C06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3511022D-E29D-46C6-85D3-CB0AD055B25E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeAnalyzerDDD.Domain", "BikeAnalyzerDDD.Domain\BikeAnalyzerDDD.Domain.csproj", "{E25D9E8B-4CED-496C-8EAB-0C787BE66E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeAnalyzerDDD.Application", "BikeAnalyzerDDD.Application\BikeAnalyzerDDD.Application.csproj", "{74938789-040E-49AF-A3B7-716FB17FD674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeAnalyzerDDD.Application.UnitTest", "BikeAnalyzerDDD.Application.UnitTest\BikeAnalyzerDDD.Application.UnitTest.csproj", "{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74938789-040E-49AF-A3B7-716FB17FD674} = {74938789-040E-49AF-A3B7-716FB17FD674}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E25D9E8B-4CED-496C-8EAB-0C787BE66E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25D9E8B-4CED-496C-8EAB-0C787BE66E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25D9E8B-4CED-496C-8EAB-0C787BE66E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25D9E8B-4CED-496C-8EAB-0C787BE66E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74938789-040E-49AF-A3B7-716FB17FD674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74938789-040E-49AF-A3B7-716FB17FD674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74938789-040E-49AF-A3B7-716FB17FD674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74938789-040E-49AF-A3B7-716FB17FD674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D81F4AE1-86E9-4BDE-9569-9FDFD444295B} = {569844B3-C444-4D9F-A4A0-7BF345CCA5A4}
+		{795330E3-A804-45CA-BC38-E8C39A57AE3F} = {569844B3-C444-4D9F-A4A0-7BF345CCA5A4}
+		{37402BDE-2310-438C-A955-66DAE1671C06} = {569844B3-C444-4D9F-A4A0-7BF345CCA5A4}
+		{3511022D-E29D-46C6-85D3-CB0AD055B25E} = {569844B3-C444-4D9F-A4A0-7BF345CCA5A4}
+		{E25D9E8B-4CED-496C-8EAB-0C787BE66E0E} = {795330E3-A804-45CA-BC38-E8C39A57AE3F}
+		{74938789-040E-49AF-A3B7-716FB17FD674} = {795330E3-A804-45CA-BC38-E8C39A57AE3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E922F6D-C476-4946-B403-EF73A4B0973B}
+	EndGlobalSection
+EndGlobal
