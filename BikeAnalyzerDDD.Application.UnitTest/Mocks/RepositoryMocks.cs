@@ -1,5 +1,5 @@
 ﻿using BikeAnalyzerDDD.Application.Contracts.Persistence;
-using BikeAnalyzerDDD.Domain;
+using BikeAnalyzerDDD.Domain.Entities;
 using Microsoft.Extensions.Hosting;
 using Moq;
 using System;
@@ -53,15 +53,37 @@ namespace BikeAnalyzerDDD.Application.UnitTest.Mocks
 
         public static List<Bike> GetBikes()
         {
+            Bike p1 = new Bike()
+            {
+                Brand = "Scott",
+                Model = "Spark RC World Cup Evo",
+                YearOfProduction = 2022,
+                HeadTubeAngle = 67.3,
+                SeatTubeEffectiveAngle = 74,
+                TravelFrontWheel = 120,
+                TravelBackWheel = 120,
+                InnerRimWidth = 30,
+                TireWidth = 2.4,
+                Weigth = 10.3
+            };
+            Bike p2 = new Bike()
+            {
+                Brand = "Scott",
+                Model = "Spark RC World Cup",
+                YearOfProduction = 2022,
+                HeadTubeAngle = 67.3,
+                SeatTubeEffectiveAngle = 74,
+                TravelFrontWheel = 120,
+                TravelBackWheel = 120,
+                InnerRimWidth = 30,
+                TireWidth = 2.4,
+                Weigth = 10.7
+            };
             List<Bike> p = new List<Bike>();
-            /*   p.Add(p1); p.Add(p3);
-               p.Add(p2); p.Add(p4);
-               p.Add(p5); p.Add(p6);
-               p.Add(p8); p.Add(p7);
-               p.Add(p9);
+            p.Add(p1);
+            p.Add(p2);
 
-               return p;
-            */
+            return p;
         }
     }
 }

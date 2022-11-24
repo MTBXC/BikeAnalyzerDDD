@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using BikeAnalyzerDDD.Application.Contracts.Persistence;
-using BikeAnalyzerDDD.Domain;
+using BikeAnalyzerDDD.Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;

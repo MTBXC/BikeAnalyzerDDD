@@ -25,8 +25,8 @@ namespace BikeAnalyzerDDD.Application.Functions.Bikes.Commands.CreateBike
                 .NotEmpty()
                 .WithMessage("{PropertyName} is required")
                 .NotNull()
-                .MaximumLength(80)
-                .WithMessage("{PropertyName} must not exceed 80 characters");
+                .MaximumLength(20)
+                .WithMessage("{PropertyName} must not exceed 20 characters");
             RuleFor(p => p.Model)
                 .NotEmpty()
                 .WithMessage("{PropertyName} is required")

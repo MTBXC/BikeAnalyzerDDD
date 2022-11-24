@@ -53,7 +53,3 @@ namespace BikeAnalyzerDDD.Application.Responses
         ValidationError = 3
     }
 }
-
-{
-}
-}

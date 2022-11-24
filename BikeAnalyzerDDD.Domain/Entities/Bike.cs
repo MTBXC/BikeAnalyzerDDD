@@ -1,4 +1,4 @@
-﻿namespace BikeAnalyzerDDD.Domain
+﻿namespace BikeAnalyzerDDD.Domain.Entities
 {
     public class Bike
     {
@@ -26,3 +26,4 @@
 
         public double? GeneralBikeRate { get; set; }
     }
+}

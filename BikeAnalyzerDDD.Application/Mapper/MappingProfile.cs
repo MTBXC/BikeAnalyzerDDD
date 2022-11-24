@@ -2,7 +2,7 @@
 using BikeAnalyzerDDD.Application.Functions.Bikes.Commands.CreateBike;
 using BikeAnalyzerDDD.Application.Functions.Bikes.Commands.UpdateBike;
 using BikeAnalyzerDDD.Application.Functions.Bikes.Queries;
-using BikeAnalyzerDDD.Domain;
+using BikeAnalyzerDDD.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
