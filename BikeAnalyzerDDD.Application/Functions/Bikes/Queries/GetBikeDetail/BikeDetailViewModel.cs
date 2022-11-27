@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BikeAnalyzerDDD.Application.Functions.Bikes.Queries
+namespace BikeAnalyzerDDD.Application.Functions.Bikes.Queries.GetBikeDetail
 {
-    public class BikeInListViewModel
+    public class BikeDetailViewModel
     {
         public int Id { get; set; }
 

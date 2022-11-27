@@ -17,10 +17,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeAnalyzerDDD.Domain", "B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeAnalyzerDDD.Application", "BikeAnalyzerDDD.Application\BikeAnalyzerDDD.Application.csproj", "{74938789-040E-49AF-A3B7-716FB17FD674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeAnalyzerDDD.Application.UnitTest", "BikeAnalyzerDDD.Application.UnitTest\BikeAnalyzerDDD.Application.UnitTest.csproj", "{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeAnalyzerDDD.Application.UnitTest", "BikeAnalyzerDDD.Application.UnitTest\BikeAnalyzerDDD.Application.UnitTest.csproj", "{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{74938789-040E-49AF-A3B7-716FB17FD674} = {74938789-040E-49AF-A3B7-716FB17FD674}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeAnalyzerDDD.Persistence.EF", "BikeAnalyzerDDD.Persistence.EF\BikeAnalyzerDDD.Persistence.EF.csproj", "{FEAD7806-AF84-4BE0-B583-A2E2290BAD26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeAnalyzerDDD.Api", "BikeAnalyzerDDD.Api\BikeAnalyzerDDD.Api.csproj", "{5B12F83F-EC40-4977-A408-6E7F515DCCD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +44,14 @@ Global
 		{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C2FC94D-45F3-4673-B11D-A4C5F718ABD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAD7806-AF84-4BE0-B583-A2E2290BAD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAD7806-AF84-4BE0-B583-A2E2290BAD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAD7806-AF84-4BE0-B583-A2E2290BAD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAD7806-AF84-4BE0-B583-A2E2290BAD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B12F83F-EC40-4977-A408-6E7F515DCCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B12F83F-EC40-4977-A408-6E7F515DCCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B12F83F-EC40-4977-A408-6E7F515DCCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12F83F-EC40-4977-A408-6E7F515DCCD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +63,8 @@ Global
 		{3511022D-E29D-46C6-85D3-CB0AD055B25E} = {569844B3-C444-4D9F-A4A0-7BF345CCA5A4}
 		{E25D9E8B-4CED-496C-8EAB-0C787BE66E0E} = {795330E3-A804-45CA-BC38-E8C39A57AE3F}
 		{74938789-040E-49AF-A3B7-716FB17FD674} = {795330E3-A804-45CA-BC38-E8C39A57AE3F}
+		{FEAD7806-AF84-4BE0-B583-A2E2290BAD26} = {37402BDE-2310-438C-A955-66DAE1671C06}
+		{5B12F83F-EC40-4977-A408-6E7F515DCCD9} = {D81F4AE1-86E9-4BDE-9569-9FDFD444295B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E922F6D-C476-4946-B403-EF73A4B0973B}

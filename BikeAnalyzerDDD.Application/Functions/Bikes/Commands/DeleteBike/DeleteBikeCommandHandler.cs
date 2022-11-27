@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BikeAnalyzerDDD.Application.Functions.Bikes.Commands.DeleteBike
 {
-    public class DeleteBikeCommandHandler : IRequest<DeleteBikeCommand>
+    public class DeleteBikeCommandHandler : IRequestHandler<DeleteBikeCommand>
     {
         private readonly IBikeRepository _bikeRepository;
         private readonly IMapper _mapper;

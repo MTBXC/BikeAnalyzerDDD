@@ -76,7 +76,8 @@ namespace BikeAnalyzerDDD.Application.Functions.Bikes.Commands.CreateBike
 
         private async Task<bool> IsBrandAndModelAlreadyExist(CreateBikeCommand e, CancellationToken cancellationToken)
         {
-            var check = await _bikeRepository.IsModelAndBrandAlreadyExist(e.Brand, e.Model);
+            var check = await _bikeRepository
+                .IsModelAndBrandAlreadyExist(e.Brand, e.Model);
 
             return !check;
         }
